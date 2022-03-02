@@ -9,7 +9,7 @@ namespace AsyncDemoNetFive
 {
     class AsyncUI
     {
-        public async Task Run()
+        public void Run()
         {
             //BurgerMaster Class
             BurgerMaster burgerMaster = new BurgerMaster();

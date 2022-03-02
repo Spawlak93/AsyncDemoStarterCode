@@ -48,7 +48,7 @@ namespace AsyncDemoNetFive
         {
             Console.WriteLine("Putting Fries in the Frier", Console.ForegroundColor = ConsoleColor.Blue);
             Console.WriteLine("Lowering the basket", Console.ForegroundColor = ConsoleColor.Blue);
-            await Task.Delay(8000);
+            await Task.Delay(3000);
             Console.WriteLine("Pulling fries from frier", Console.ForegroundColor = ConsoleColor.Blue);
             Console.ResetColor();
             return new Fries();
